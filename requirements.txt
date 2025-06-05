@@ -1,0 +1,12 @@
+tensorflow
+keras
+librosa
+numpy
+streamlit
+matplotlib
+joblib
+scikit-learn
+sentence-transformers
+transformers
+torch
+spacy

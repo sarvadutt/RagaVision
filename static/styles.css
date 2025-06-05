@@ -1,0 +1,224 @@
+/* === Global Dark Text Style for All Sections === */
+body,
+.stMarkdown,
+h1, h2, h3, h4,
+p, span, div,
+strong, label {
+  color: #222 !important;
+  text-shadow: none !important;
+
+}
+
+
+/* === Make All Text Pop === */
+h1, h2, h3, h4, p, span, div {
+  color: #222 !important;
+  text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+}
+.how-it-works-container {
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* === REMOVE CONTAINER BACKGROUND === */
+.block-container {
+  background-color: transparent !important;
+  padding: 2rem;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* === CHAT CONTAINER & SEARCH BOX === */
+.chat-container, .search-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* === HEADINGS === */
+h1, h2, h3, h4 {
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+/* === Chat Bubbles – Fully Readable === */
+.user-bubble {
+  background: rgba(34, 34, 34, 0.6); /* dark bubble */
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 20px 20px 0 20px;
+  font-size: 15px;
+  max-width: 85%;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.assistant-bubble {
+  background: rgba(255, 255, 255, 0.1); /* subtle light, better contrast */
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 20px 20px 20px 0;
+  font-size: 15px;
+  max-width: 85%;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === BUTTONS === */
+.stButton > button {
+  background-color: #4e8df5;
+  color: white;
+  border-radius: 12px;
+  padding: 0.6rem 1.4rem;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button:hover {
+  background-color: #3a7bd5;
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* === TEXT INPUTS === */
+.stTextInput input, .stTextArea textarea {
+  border-radius: 12px !important;
+  border: 1px solid #ffffffaa !important;
+  padding: 12px !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+}
+
+/* === PROGRESS BAR === */
+.stProgress > div > div > div > div {
+  background-color: #4e8df5;
+}
+
+/* === ICONS === */
+.icon-container {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.icon-large {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.icon-medium {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+/* === FEATURE CARD === */
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-left: 4px solid #4e8df5;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* === SUMMARY BOX === */
+.summary-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #4e8df5;
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+/* === SCROLLBAR (Optional but beautiful) === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4e8df5;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+/* === SIDEBAR MAKEOVER === */
+.css-1d391kg {  /* Main sidebar container */
+  background: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(6px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.css-1d391kg * {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.css-1d391kg .nav-item {
+  padding: 12px 18px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.css-1d391kg .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.02);
+}
+/* === SIDEBAR TRANSPARENT GLASS EFFECT === */
+section[data-testid="stSidebar"] {
+  background: rgba(0, 0, 0, 0.35) !important;
+  backdrop-filter: blur(6px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* === Sidebar Items === */
+.css-1lcbmhc, .css-1v3fvcr, .css-1n76uvr {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* === Option Menu Items === */
+.nav-item {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-radius: 12px;
+  padding: 10px 14px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transform: scale(1.02);
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  border-left: 4px solid #4e8df5 !important;
+}
+.search-container {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  color: #222 !important;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+/* === Light Style for Text Input === */
+.stTextInput input {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: #222 !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  padding: 10px 14px !important;
+  font-size: 15px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stTextInput input::placeholder {
+  color: #666 !important;
+}

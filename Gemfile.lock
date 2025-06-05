@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    bigdecimal (3.1.8)
+    csv (3.3.0)
+    date (3.3.3)
+    dotenv (3.1.2)
+    fileutils (1.7.2)
+    httparty (0.22.0)
+      csv
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    logger (1.5.3)
+    mini_mime (1.1.5)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
+    nokogiri (1.16.7-x64-mingw-ucrt)
+      racc (~> 1.4)
+    open-uri (0.4.1)
+      stringio
+      time
+      uri
+    racc (1.8.1)
+    rexml (3.3.2)
+      strscan
+    rubyzip (2.3.2)
+    selenium-webdriver (4.25.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    stringio (3.0.4)
+    strscan (3.0.5)
+    time (0.2.2)
+      date
+    uri (0.12.2)
+    websocket (1.2.11)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  dotenv
+  fileutils
+  httparty
+  nokogiri
+  open-uri
+  selenium-webdriver
+
+BUNDLED WITH
+   2.4.19
